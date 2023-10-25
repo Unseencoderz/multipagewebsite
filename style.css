@@ -1,0 +1,29 @@
+/* CSS for styling the Instagram clone */
+/* You'd need much more styles for a complete Instagram clone */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 214, 240);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(107, 41, 41);
+    padding: 10px;
+    box-shadow: 0px 1px 4px rgba(11, 163, 239, 0.1);
+}
+
+main {
+    max-width: 800px;
+    margin: 10 auto;
+    padding: 20px;
+}
+
+/* Add more CSS for styling the feed, comments, etc. */
+
+footer {
+    background-color:rgb(0, 255, 221);
+    text-align: center;
+    padding: 100px;
+}

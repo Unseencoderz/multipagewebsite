@@ -1,0 +1,27 @@
+.menu-content li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu-content .box {
+    background-color:rgb(165, 67, 251); /* Shaded purple color for the boxes */
+    border-radius: 20px; /* Rounded corners */
+    padding: 16px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.menu-content .box:hover {
+    background-color: rgba(89, 254, 251, 0.907); /* No background color on hover */
+    transform: translate(10px, 7px); /* 3D animation effect on hover */
+    box-shadow: 5px 5px 10px rgba(12, 0, 0, 0.3); /* Hover shadow */
+}
+
+.menu-content .box i {
+    margin-right: 50px;
+}
+    

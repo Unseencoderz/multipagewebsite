@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic responsive styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(197, 221, 101);
+        }
+
+        header {
+            background-color: rgb(143, 143, 253);
+            box-shadow: 0px 1px 4px rgba(9, 9, 9, 0.1);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .logo h1 {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            font-size: 1.2rem;
+        }
+
+        .user-auth {
+            display: flex;
+            gap: 10px;
+        }
+
+        .user-auth button {
+            padding: 5px 15px;
+            font-size: 1rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .post {
+            background-color: rgb(80, 174, 185);
+            margin-bottom: 20px;
+            border: 1px solid rgb(32, 14, 14);
+            border-radius: 5px;
+            box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-info img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .user-info h2 {
+            font-size: 1.2rem;
+        }
+
+        .post img {
+            max-width: 100%;
+        }
+
+        .post-actions button {
+            background-color: transparent;
+            border: none;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .comments {
+            margin-top: 20px;
+        }
+
+        .comment {
+            margin-bottom: 10px;
+        }
+
+        .comment h3 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .comment p {
+            font-size: 0.9rem;
+        }
+
+        footer {
+            background-color: rgb(137, 255, 212);
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-logo img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .footer-logo h2 {
+            font-size: 1rem;
+        }
+
+        .footer-links ul,
+        .footer-social ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer-links li,
+        .footer-social li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .footer-bottom {
+            font-size: 0.8rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram Logo">
+            <h1>Instagram Clone</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+        <div class="user-auth">
+            <button id="loginButton">Log In</button>
+            <button id="signupButton">Sign Up</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+  <div class="post">
+      <div class="user-info">
+          <img src="Screenshot_20230409_025047_YouTube.jpg" alt="photo">
+          <h2>User1</h2>
+      </div>
+      <img src="Screenshot_20230409_025042_YouTube.jpg" alt="User 1 Profile Picture">
+                          <p>A new comment.</p>
+                      </div>
+                      <div class="comment">
+                          <h3>User6:</h3>
+                          <p>One more comment to go.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram Logo">
+            <h2>Instagram Clone</h2>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2023 Instagram Clone
+    </div>
+</footer>ia.placeholder.com/600x400" alt="Post Image">
+      <div class="post-actions">
+          <button class="like-button">Like</button>
+          <button class="comment-button">Comment</button>
+      </div>
+      <div class="comments">
+          <div class="comment">
+              <h3>User2:</h3>
+              <p>This is a comment on the post.</p>
+              <div class="comments">
+                <div class="comment">
+                    <h3>User2:</h3>
+                    <p>This is a comment on the post.</p>
+                </div>
+                <div class="comment">
+                    <h3>User3:</h3>
+                    <p>Another comment here.</p>
+                </div>
+                <div class="comment">
+                    <h3>User4:</h3>
+                    <p>Yet another comment.</p>
+                    <div class="comments">
+                      <div class="comment">
+                          <h3>User2:</h3>
+                          <p>This is a comment on the post.</p>
+                      </div>
+                      <div class="comment">
+                          <h3>User3:</h3>
+                          <p>Another comment here.</p>
+                      </div>
+                      <div class="comment">
+                          <h3>User4:</h3>
+                          <p>Yet another comment.</p>
+                      </div>
+                      
+                      <div class="comment">
+
+                      </body>
+                      </html> 
